@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "author": "Dimas",
+        "title": "Ingfo",
+        "deskripsi": "blablabla 1"
+    },
+    {
+        "id": 2,
+        "author": "Aji",
+        "title": "GG Geming",
+        "deskripsi": "blablabla 2"
+    },
+    {
+        "id": 3,
+        "author": "Bima",
+        "title": "Mc Harem",
+        "deskripsi": "blablabla 3"
+    },
+    {
+        "id": 4,
+        "author": "Dony",
+        "title": "Jago Jarkom",
+        "deskripsi": "blablabla 4"
+    }
+]
