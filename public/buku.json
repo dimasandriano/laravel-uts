@@ -1,44 +1,8 @@
 [
     {
         "id": 1,
-        "author": "Dimas",
-        "title": "Ingfo",
-        "deskripsi": "blablabla 1"
-    },
-    {
-        "id": 2,
-        "author": "Aji",
-        "title": "GG Geming",
-        "deskripsi": "blablabla 2"
-    },
-    {
-        "id": 3,
-        "author": "Bima",
-        "title": "Mc Harem",
-        "deskripsi": "blablabla 3"
-    },
-    {
-        "id": 4,
-        "author": "Dony",
-        "title": "Jago Jarkom",
-        "deskripsi": "blablabla 4"
-    },
-    {
-        "id": "5",
-        "author": "Windah",
-        "title": "Bocil Rusuh",
-        "deskripsi": "awdjoawdj"
-    },
-    {
-        "id": "6",
-        "author": "Pandu",
-        "title": "Web",
-        "deskripsi": "emot jempol"
-    },
-    {
-        "id": "7",
-        "author": "crot",
-        "title": "crot",
-        "deskripsi": "crot"
+        "author": "1",
+        "title": "2",
+        "deskripsi": "3"
     }
 ]

@@ -1,9 +1,9 @@
 @extends('layout.layout')
 
 @section('content')
-    <form method="POST" action="{{route('store')}}">
+    <form method="POST" action="{{route('buku.store')}}">
         @csrf
-        <div class="mb-3">
+        <div class="mb-3 d-none">
             <label for="id" class="col-form-label">Id</label>
             <input type="text" class="form-control" id="id" name="id">
         </div>

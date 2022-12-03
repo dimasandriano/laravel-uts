@@ -5,9 +5,7 @@
 @endsection
 
 @section('content')
-<a href="/create">
-  <button class="btn btn-primary">Tambah Buku</button>
-</a>
+<a href="/buku/create" class="btn btn-primary">Tambah Buku</a>
 <table class="table table-hover">
     <thead>
       <tr>
@@ -25,8 +23,8 @@
                 <td>{{ $data['author'] }}</td>
                 <td>{{ $data['title'] }}</td>
                 <td>{{ $data['deskripsi'] }}</td>
-                <td><button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modal" data-bs-whatever="Edit">Edit</button></td>
-                <td><button class="btn btn-danger">Delete</button></td>
+                <td><a href="{{ route('buku.edit', $data['id']) }}" class="btn btn-warning" >Edit</a></td>
+                <td><a href="{{ route('buku.destroy', $data['id']) }}" class="btn btn-danger">Delete</a></td>
             </tr>
         @endforeach
     </tbody>

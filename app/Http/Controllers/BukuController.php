@@ -43,8 +43,10 @@ class BukuController extends Controller
         $file = file_get_contents(public_path() . "/buku.json");
         $datas = json_decode($file, true);
 
+        $idlist = array_column($datas, 'id');
+        $auto_increment_id = end($idlist);
         $datas [] = array(
-            'id' => $request->id,
+            'id' => $auto_increment_id+1,
             'author' => $request->author,
             'title' => $request->title,
             'deskripsi' => $request->deskripsi
@@ -53,7 +55,7 @@ class BukuController extends Controller
         $jsonfile = json_encode($datas, JSON_PRETTY_PRINT);
         $file = file_put_contents(public_path() . "/buku.json",$jsonfile);
 
-        return redirect('/');
+        return redirect('/buku');
     }
 
     /**
@@ -76,6 +78,12 @@ class BukuController extends Controller
     public function edit($id)
     {
         //
+        $file = file_get_contents(public_path() . "/buku.json");
+        $datas = json_decode($file, true);
+
+        $jsonfile = $datas[$id-1];
+
+        return view('pages.edit', compact('jsonfile'));
     }
 
     /**
@@ -88,6 +96,20 @@ class BukuController extends Controller
     public function update(Request $request, $id)
     {
         //
+        $file = file_get_contents(public_path() . "/buku.json");
+        $datas = json_decode($file, true);
+
+        $datas[$id-1] = array(
+            'id' => $request->id,
+            'author' => $request->author,
+            'title' => $request->title,
+            'deskripsi' => $request->deskripsi
+        );
+
+        $jsonfile = json_encode($datas, JSON_PRETTY_PRINT);
+        $file = file_put_contents(public_path() . "/buku.json",$jsonfile);
+
+        return redirect('/buku');
     }
 
     /**
@@ -99,5 +121,14 @@ class BukuController extends Controller
     public function destroy($id)
     {
         //
+        $file = file_get_contents(public_path() . "/buku.json");
+        $datas = json_decode($file, true);
+
+        unset($datas[$id-1]);
+
+        $jsonfile = json_encode($datas, JSON_PRETTY_PRINT);
+        $file = file_put_contents(public_path() . "/buku.json",$jsonfile);
+
+        return redirect('/buku');
     }
 }
