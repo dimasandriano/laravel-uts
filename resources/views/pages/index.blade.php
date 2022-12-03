@@ -5,7 +5,9 @@
 @endsection
 
 @section('content')
-<button class="btn btn-primary">Tambah Buku</button>
+<a href="/create">
+  <button class="btn btn-primary">Tambah Buku</button>
+</a>
 <table class="table table-hover">
     <thead>
       <tr>

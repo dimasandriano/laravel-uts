@@ -14,4 +14,6 @@ use App\Http\Controllers\BukuController;
 |
 */
 
-Route::get('/', [BukuController::class, 'index']);
+Route::get('/', [BukuController::class, 'index'])->name('index');
+Route::get('/create', [BukuController::class, 'create'])->name('create');
+Route::post('/store', [BukuController::class, 'store'])->name('store');

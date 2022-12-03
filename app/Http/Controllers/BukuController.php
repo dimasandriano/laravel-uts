@@ -15,7 +15,7 @@ class BukuController extends Controller
     public function index()
     {
         //
-        $file = file_get_contents(public_path() . "/buku.json");;
+        $file = file_get_contents(public_path() . "/buku.json");
         $datas = json_decode($file, true);
         return view('pages.index', compact('datas'));
     }
@@ -28,7 +28,7 @@ class BukuController extends Controller
     public function create()
     {
         //
-        
+        return view('pages.create');
     }
 
     /**
@@ -40,6 +40,20 @@ class BukuController extends Controller
     public function store(Request $request)
     {
         //
+        $file = file_get_contents(public_path() . "/buku.json");
+        $datas = json_decode($file, true);
+
+        $datas [] = array(
+            'id' => $request->id,
+            'author' => $request->author,
+            'title' => $request->title,
+            'deskripsi' => $request->deskripsi
+        );
+
+        $jsonfile = json_encode($datas, JSON_PRETTY_PRINT);
+        $file = file_put_contents(public_path() . "/buku.json",$jsonfile);
+
+        return redirect('/');
     }
 
     /**

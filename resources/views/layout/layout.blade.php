@@ -36,33 +36,37 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h1 class="modal-title fs-5" id="ModalLabel"></h1>
+            <h1 class="modal-title fs-5" id="ModalLabel">Edit Buku</h1>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
-          <div class="modal-body">
-            <form method="" action="">
+          <form method="POST" action="{{route('store')}}">
+            <div class="modal-body">
+              @csrf
+              <div class="mb-3">
+                <label for="id" class="col-form-label">Id</label>
+                <input type="text" class="form-control" id="id" name="id">
+              </div>
               <div class="mb-3">
                 <label for="author" class="col-form-label">Author</label>
-                <input type="text" class="form-control" id="author">
+                <input type="text" class="form-control" id="author" name="author">
               </div>
               <div class="mb-3">
                 <label for="title" class="col-form-label">Title</label>
-                <input type="text" class="form-control" id="title">
+                <input type="text" class="form-control" id="title" name="title">
               </div>
               <div class="mb-3">
                 <label for="Deskripsi" class="col-form-label">Deskripsi</label>
-                <textarea class="form-control" id="Deskripsi"></textarea>
+                <textarea class="form-control" id="Deskripsi" name="deskripsi"></textarea>
               </div>
-            </form>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
-            <button type="button" class="btn btn-primary" id="aksi"></button>
-          </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+              <button type="submit" class="btn btn-primary" id="aksi">Edit</button>
+            </div>
+          </form>
         </div>
       </div>
     </div>
-    <script src="{{ asset('assets/js/script.js') }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   </body>
 </html>
