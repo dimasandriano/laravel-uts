@@ -15,16 +15,17 @@ use App\Http\Controllers\BukuController;
 */
 
 // Route Manual
-Route::get('/buku', [BukuController::class, 'index'])->name('buku.index');
-Route::get('/buku/create', [BukuController::class, 'create'])->name('buku.create');
-Route::post('/buku/store', [BukuController::class, 'store'])->name('buku.store');
-Route::get('/buku/show/{id}', [BukuController::class, 'show'])->name('buku.show');
-Route::get('/buku/edit/{id}', [BukuController::class, 'edit'])->name('buku.edit');
-Route::post('/buku/update/{id}', [BukuController::class, 'update'])->name('buku.update');
+// Route::get('/buku', [BukuController::class, 'index'])->name('buku.index');
+// Route::get('/buku/create', [BukuController::class, 'create'])->name('buku.create');
+// Route::post('/buku/store', [BukuController::class, 'store'])->name('buku.store');
+// Route::get('/buku/show/{id}', [BukuController::class, 'show'])->name('buku.show');
+// Route::get('/buku/edit/{id}', [BukuController::class, 'edit'])->name('buku.edit');
+// Route::post('/buku/update/{id}', [BukuController::class, 'update'])->name('buku.update');
 Route::get('/buku/delete/{id}', [BukuController::class, 'destroy'])->name('buku.destroy');
+
 Route::get('/', function(){
     return view('pages.home');
 });
 
 // Route Resource
-// Route::resource('/buku', BukuController::class);
+Route::resource('/buku', BukuController::class)->except(['destroy']);

@@ -5,5 +5,5 @@
 @endsection
 
 @section('content')
-    <p>Ini adalah halaman buku</p>
+    <p>Ini adalah halaman setiap buku</p>
 @endsection
