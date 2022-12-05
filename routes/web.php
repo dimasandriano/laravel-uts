@@ -23,9 +23,8 @@ use App\Http\Controllers\BukuController;
 // Route::post('/buku/update/{id}', [BukuController::class, 'update'])->name('buku.update');
 Route::get('/buku/delete/{id}', [BukuController::class, 'destroy'])->name('buku.destroy');
 
-Route::get('/', function(){
-    return view('pages.home');
-});
+//Dashboard
+Route::get('/', [BukuController::class, 'dashboard']);
 
 // Route Resource
 Route::resource('/buku', BukuController::class)->except(['destroy']);

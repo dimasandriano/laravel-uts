@@ -17,7 +17,7 @@ class BukuController extends Controller
         //
         $file = file_get_contents(public_path() . "/buku.json");
         $datas = json_decode($file, true);
-        return view('pages.index', compact('datas'));
+        return view('pages.listdata', compact('datas'));
     }
 
     /**
@@ -130,5 +130,11 @@ class BukuController extends Controller
         $file = file_put_contents(public_path() . "/buku.json",$jsonfile);
 
         return redirect('/buku');
+    }
+
+    //Dashboard
+    public function dashboard(){
+        //
+        return view('pages.dashboard');
     }
 }
