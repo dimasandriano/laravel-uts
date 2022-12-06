@@ -1,16 +1,29 @@
 [
     {
-        "id": 1,
-        "author": "hax",
-        "title": "budis",
-        "gambar": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Sebuah-seni-untuk-bersikap-bodoh-amat.jpg",
-        "deskripsi": "asdqwdwq"
+        "id": "1",
+        "title": "a",
+        "author": "a",
+        "genre": "a",
+        "tahun": "a",
+        "deskripsi": "z",
+        "gambar": "https://upload.wikimedia.org/wikipedia/commons/4/4b/"
     },
     {
         "id": 2,
-        "author": "jkhkhkyiy",
-        "title": "jklhkh",
-        "gambar": "http://lib.litbang.kemendagri.go.id/lib/minigalnano/createthumb.php?filename=images/docs/Scan_20190102_%282%29.jpg.jpg&width=200",
-        "deskripsi": "ohkghbkbjjklbjkbkb"
+        "title": "b",
+        "author": "b",
+        "genre": "b",
+        "tahun": "b",
+        "deskripsi": "b",
+        "gambar": "https://upload.wikimedia.org/wikipedia/commons/4/4b/"
+    },
+    {
+        "id": 3,
+        "title": "asd",
+        "author": "asd",
+        "genre": "asd",
+        "tahun": "asd",
+        "deskripsi": "ASD",
+        "gambar": "https://upload.wikimedia.org/wikipedia/commons/4/4b/"
     }
 ]
