@@ -1,26 +1,18 @@
-{
-    "1": {
+[
+    {
+        "id": "1",
+        "title": "a",
+        "author": "a",
+        "genre": "a",
+        "tahun": "a",
+        "deskripsi": "z"
+    },
+    {
         "id": 2,
-        "author": "Aji",
-        "title": "GG Geming",
-        "deskripsi": "asdpwd"
-    },
-    "2": {
-        "id": 3,
-        "author": "Bima",
-        "title": "MC Harem",
-        "deskripsi": "asdkaowd"
-    },
-    "3": {
-        "id": 4,
-        "author": "Dony",
-        "title": "Jaog Jarkom",
-        "deskripsi": "asdkoawkd"
-    },
-    "4": {
-        "id": 5,
-        "author": "Dimas",
-        "title": "Ingfo",
-        "deskripsi": "Bang"
+        "title": "b",
+        "author": "b",
+        "genre": "b",
+        "tahun": "b",
+        "deskripsi": "b"
     }
-}
+]

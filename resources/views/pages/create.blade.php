@@ -8,12 +8,20 @@
             <input type="text" class="form-control" id="id" name="id">
         </div>
         <div class="mb-3">
+            <label for="title" class="col-form-label">Title</label>
+            <input type="text" class="form-control" id="title" name="title">
+        </div>
+        <div class="mb-3">
             <label for="author" class="col-form-label">Author</label>
             <input type="text" class="form-control" id="author" name="author">
         </div>
         <div class="mb-3">
-            <label for="title" class="col-form-label">Title</label>
-            <input type="text" class="form-control" id="title" name="title">
+            <label for="Genre" class="col-form-label">Genre</label>
+            <input type="text" class="form-control" id="Genre" name="genre">
+        </div>
+        <div class="mb-3">
+            <label for="Tahun" class="col-form-label">Tahun</label>
+            <input type="text" class="form-control" id="Tahun" name="tahun">
         </div>
         <div class="mb-3">
             <label for="Deskripsi" class="col-form-label">Deskripsi</label>

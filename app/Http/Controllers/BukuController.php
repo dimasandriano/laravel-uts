@@ -47,8 +47,10 @@ class BukuController extends Controller
         $auto_increment_id = end($idlist);
         $datas [] = array(
             'id' => $auto_increment_id+1,
-            'author' => $request->author,
             'title' => $request->title,
+            'author' => $request->author,
+            'genre' => $request->genre,
+            'tahun' => $request->tahun,
             'deskripsi' => $request->deskripsi
         );
 
@@ -101,8 +103,10 @@ class BukuController extends Controller
 
         $datas[$id-1] = array(
             'id' => $request->id,
-            'author' => $request->author,
             'title' => $request->title,
+            'author' => $request->author,
+            'genre' => $request->genre,
+            'tahun' => $request->tahun,
             'deskripsi' => $request->deskripsi
         );
 
