@@ -24,6 +24,10 @@
             <input type="text" class="form-control" id="Tahun" name="tahun">
         </div>
         <div class="mb-3">
+            <label for="gambar" class="col-form-label">Gambar</label>
+            <input type="text" class="form-control" id="gambar" name="gambar">
+        </div>
+        <div class="mb-3">
             <label for="Deskripsi" class="col-form-label">Deskripsi</label>
             <textarea class="form-control" id="Deskripsi" name="deskripsi"></textarea>
         </div>

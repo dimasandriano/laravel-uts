@@ -1,18 +1,16 @@
 [
     {
-        "id": "1",
-        "title": "a",
-        "author": "a",
-        "genre": "a",
-        "tahun": "a",
-        "deskripsi": "z"
+        "id": 1,
+        "author": "hax",
+        "title": "budis",
+        "gambar": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Sebuah-seni-untuk-bersikap-bodoh-amat.jpg",
+        "deskripsi": "asdqwdwq"
     },
     {
         "id": 2,
-        "title": "b",
-        "author": "b",
-        "genre": "b",
-        "tahun": "b",
-        "deskripsi": "b"
+        "author": "jkhkhkyiy",
+        "title": "jklhkh",
+        "gambar": "http://lib.litbang.kemendagri.go.id/lib/minigalnano/createthumb.php?filename=images/docs/Scan_20190102_%282%29.jpg.jpg&width=200",
+        "deskripsi": "ohkghbkbjjklbjkbkb"
     }
 ]
