@@ -9,12 +9,24 @@
             <input type="text" value="{{ $jsonfile['id'] }}" class="form-control" id="id" name="id">
         </div>
         <div class="mb-3">
+            <label for="title" class="col-form-label">Title</label>
+            <input type="text" value="{{ $jsonfile['title'] }}" class="form-control" id="title" name="title">
+        </div>
+        <div class="mb-3">
             <label for="author" class="col-form-label">Author</label>
             <input type="text" value="{{ $jsonfile['author'] }}" class="form-control" id="author" name="author">
         </div>
         <div class="mb-3">
-            <label for="title" class="col-form-label">Title</label>
-            <input type="text" value="{{ $jsonfile['title'] }}" class="form-control" id="title" name="title">
+            <label for="Genre" class="col-form-label">Genre</label>
+            <input type="text" value="{{ $jsonfile['genre'] }}" class="form-control" id="Genre" name="genre">
+        </div>
+        <div class="mb-3">
+            <label for="Tahun" class="col-form-label">Tahun</label>
+            <input type="text" value="{{ $jsonfile['tahun'] }}" class="form-control" id="Tahun" name="tahun">
+        </div>
+        <div class="mb-3">
+            <label for="gambar" class="col-form-label">Gambar</label>
+            <input value="{{$jsonfile['gambar']}}" type="text" class="form-control" id="gambar" name="gambar">
         </div>
         <div class="mb-3">
             <label for="Deskripsi" class="col-form-label">Deskripsi</label>

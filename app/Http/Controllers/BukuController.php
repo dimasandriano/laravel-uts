@@ -47,8 +47,11 @@ class BukuController extends Controller
         $auto_increment_id = end($idlist);
         $datas [] = array(
             'id' => $auto_increment_id+1,
-            'author' => $request->author,
             'title' => $request->title,
+            'author' => $request->author,
+            'genre' => $request->genre,
+            'tahun' => $request->tahun,
+            'gambar' => $request->gambar,
             'deskripsi' => $request->deskripsi
         );
 
@@ -67,6 +70,11 @@ class BukuController extends Controller
     public function show($id)
     {
         //
+        $file = file_get_contents(public_path() . "/buku.json");
+        $datas = json_decode($file, true);
+        $jsonfile = $datas[$id-1];
+        
+        return view('pages.detail', compact('jsonfile'));
     }
 
     /**
@@ -101,8 +109,10 @@ class BukuController extends Controller
 
         $datas[$id-1] = array(
             'id' => $request->id,
-            'author' => $request->author,
             'title' => $request->title,
+            'author' => $request->author,
+            'genre' => $request->genre,
+            'tahun' => $request->tahun,
             'deskripsi' => $request->deskripsi
         );
 
@@ -135,6 +145,8 @@ class BukuController extends Controller
     //Dashboard
     public function dashboard(){
         //
-        return view('pages.dashboard');
+        $file = file_get_contents(public_path() . "/buku.json");
+        $datas = json_decode($file, true);
+        return view('pages.dashboard', compact('datas'));
     }
 }
