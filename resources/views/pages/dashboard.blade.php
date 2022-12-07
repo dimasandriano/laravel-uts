@@ -9,7 +9,10 @@
       <h5 class="card-title">{{ $data['title'] }}</h5>
       <p class="card-text">{{ $data['tahun'] }}</p>
       <p class="card-text">{{ $data['author'] }}</p>
-      <a href="{{route('show', $data['id'])}}" class="btn btn-primary">Detail</a>
+      <div style="margin-left:10rem">
+        
+        <a href="{{route('show', $data['id'])}}" class="btn btn-primary">Detail</a> 
+      </div>
     </div>
   </div>
   @endforeach
