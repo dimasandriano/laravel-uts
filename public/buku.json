@@ -1,26 +1,14 @@
 {
     "1": {
         "id": 2,
-        "author": "Aji",
-        "title": "GG Geming",
-        "deskripsi": "asdpwd"
+        "author": "b",
+        "title": null,
+        "deskripsi": null
     },
     "2": {
         "id": 3,
-        "author": "Bima",
-        "title": "MC Harem",
-        "deskripsi": "asdkaowd"
-    },
-    "3": {
-        "id": 4,
-        "author": "Dony",
-        "title": "Jaog Jarkom",
-        "deskripsi": "asdkoawkd"
-    },
-    "4": {
-        "id": 5,
-        "author": "Dimas",
-        "title": "Ingfo",
-        "deskripsi": "Bang"
+        "author": "c",
+        "title": null,
+        "deskripsi": null
     }
 }
