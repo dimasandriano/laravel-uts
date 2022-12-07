@@ -14,6 +14,7 @@
         <th scope="col">Author</th>
         <th scope="col">Genre</th>
         <th scope="col">Tahun</th>
+        <th scope="col">Gambar</th>
         <th scope="col">Deskripsi</th>
         <th width="60px">Aksi</th>
       </tr>
@@ -26,7 +27,9 @@
                 <td>{{ $data['author'] }}</td>
                 <td>{{ $data['genre'] }}</td>
                 <td>{{ $data['tahun'] }}</td>
+                <td>{{ $data['gambar'] }}</td>
                 <td>{{ $data['deskripsi'] }}</td>
+                
                 <td><a href="{{ route('buku.edit', $data['id']) }}" class="btn btn-warning" >Edit</a></td>
                 <td><a href="{{ route('buku.destroy', $data['id']) }}" class="btn btn-danger">Delete</a></td>
             </tr>

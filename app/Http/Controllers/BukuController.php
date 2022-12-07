@@ -113,6 +113,7 @@ class BukuController extends Controller
             'author' => $request->author,
             'genre' => $request->genre,
             'tahun' => $request->tahun,
+            'gambar' => $request->gambar,
             'deskripsi' => $request->deskripsi
         );
 

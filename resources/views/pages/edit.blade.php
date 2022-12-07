@@ -25,7 +25,7 @@
             <input type="text" value="{{ $jsonfile['tahun'] }}" class="form-control" id="Tahun" name="tahun">
         </div>
         <div class="mb-3">
-            <label for="gambar" class="col-form-label">Gambar</label>
+            <label for="gambar" class="col-form-label">gambar</label>
             <input value="{{$jsonfile['gambar']}}" type="text" class="form-control" id="gambar" name="gambar">
         </div>
         <div class="mb-3">
