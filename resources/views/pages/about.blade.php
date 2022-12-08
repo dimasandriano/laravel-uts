@@ -1,9 +1,9 @@
 @extends('layout.layout')
 
 @section('title')
-    Buku
+    About
 @endsection
 
 @section('content')
-    <p>Ini adalah halaman setiap buku</p>
+    <p>Ini adalah halaman About</p>
 @endsection
