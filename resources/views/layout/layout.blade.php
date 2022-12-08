@@ -8,7 +8,7 @@
       #listmenu>a:hover{
         background-color: #0ea5e9;
       }
-      #kiri, .bg-blue{
+      #kiri , .bg-blue{
         background-color: #38bdf8;
       }
     </style>
