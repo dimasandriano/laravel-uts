@@ -23,6 +23,9 @@ Route::get('/buku/edit/{id}', [BukuController::class, 'edit'])->name('buku.edit'
 Route::post('/buku/update/{id}', [BukuController::class, 'update'])->name('buku.update');
 Route::get('/buku/delete/{id}', [BukuController::class, 'destroy'])->name('buku.destroy');
 Route::get('/buku/show/{id}', [BukuController::class, 'show'])->name('show');
+Route::get('/about', function(){
+    return view('pages.about');
+});
 
 //Dashboard
 Route::get('/', [BukuController::class, 'dashboard']);

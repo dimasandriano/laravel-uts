@@ -31,6 +31,10 @@
             <label for="Deskripsi" class="col-form-label">Deskripsi</label>
             <textarea class="form-control" id="Deskripsi" name="deskripsi"></textarea>
         </div>
-        <button type="submit" class="btn btn-primary">Tambah Buku</button>
+        <div class="d-flex justify-content-between">
+            <button type="submit" class="btn btn-primary">Tambah Buku</button>
+            <a href="/buku"> <button type="submit" class="btn btn-primary">Kembali</button></a>
+        </div>
+        
     </form>
 @endsection

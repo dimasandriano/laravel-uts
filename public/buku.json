@@ -1,6 +1,7 @@
 [
     {
         "id": 1,
+<<<<<<< HEAD
         "title": "asas",
         "author": "aaa",
         "genre": "sasa",
@@ -43,5 +44,85 @@
         "tahun": "31",
         "gambar": "data:image\/jpeg;base64,\/9j\/4AAQSkZJRgABAQAAAQABAAD\/2wCEAAkGBxAQDxUPDxIVFRUPFRUVFRUVFRUVFRUVFRUWFhUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OFxAQGi0dHSUtLS0tLS0tLS4tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf\/AABEIAOEA4QMBIgACEQEDEQH\/xAAcAAACAgMBAQAAAAAAAAAAAAAAAQIFAwQGBwj\/xABAEAACAQICBgcFBgUCBwAAAAAAAQIDEQQhBRIxQVGBBiIyYXGRoRNCUpKxIzNicsHRBxRDovBjgxU0U4KywuH\/xAAbAQEAAwEBAQEAAAAAAAAAAAAAAQMEAgUGB\/\/EADgRAAIBAgIHBgUDAwUBAAAAAAABAgMRBCESMUFxkaGxBVGBwdHwEyIyYeFCUmIUgqIzcpKy8SP\/2gAMAwEAAhEDEQA\/APQQQAj85PeGAAAAACAGIYACGAAgAACAAxDAGMQIEDAAAAYhoggAAABAAAgBoQ0AAAAAAAAGEEAzosAAAAAAaAABARci4wEM6AAAHIAYiQAAAAgYCGAAxAQQMBAAMQAAAAMEAAAAFwAADCMAOiwAALAAAAQGAAYsTGLhJSvbVd7Nxdrbms0yUrtI5bsmzKM5JQnurVl\/uSf1Ja9dbMRU84v6o9d9i1l+qPP0Mn9X\/HmdWByqr4pbMRLnCD\/QksZi1\/Xi\/GjD9Dh9jYjY48X6D+rX7X\/j6nUIkcxHSGLX9Sm\/Gl+0kE9MYqKcvsmopv3lsXizh9k4lbFxOv6qO1NcPU6cEVuD0pF2VTqu233b\/oWKd9hgqUpU3aSsdUMTSrx0qbv1W9EhDArLgGIYAhgIAAALAgEMAAAAAAQDsABisMQzo7uIBhYagIYEhcgiVGndJwpR9nLWTnbPUk4239ZK191u8ubEakIyTjJKSe1SSaa709pZQqKlUjNq9nexXVi5RaTtz80catIUn\/UXNNfVGSOLpvZNehY6Q6L0550X7N8HeUP3j\/mRzOP0bWofeQaXxLOD\/wC7d4OzPoKfaqnsW655lSNan9Vrbn6lyqkXsa80SSOZy7vMSf8Al2aFj47Y80VfFl3Lj+GdOa+MeSj8TXkneXovUpFXktkmvBtE4YqSldvW3Z3TXGz3bF5EyxsXFpJp+HqV1qk3Tkks7d\/rYulM2sLjJ0+y8uG7y3FVQxMZZJ58HkzYUzG7SVnmjwlp0p3jeMl4M6XCaShPJ9WXDjzN845SN7CaRnTyvrL4X+j3Hn1sCnnTfg\/X14ntYXtlr5a6v\/Jea2+HA6SwjVwmOp1Mk7P4X\/mZtnnSjKDtJWZ71OrCrHSg7r7CGFhnJ2IBgAILEhWBFwAlYALkQGAuTcwgSA6OgAAFgAxDIAAIYACavlxJCBBR6R6M0Kl5U\/spP4c4N98N3Kxy+ktCV6F3OOtFe\/DrR57481zPRBminiZx15r7+\/UzVMNCWayZ5Tcjc9B0l0ew9bO3s5fFTsvmjsfo+85bSXRvEUbtR9pFe9DNrxht8rm2niKc8tT+5jnQnH7lM5GxQ0hOOT6y7+1ye\/mY4YaUnaKZYPQE1T15PVv2W11LrdJrOL8UaVqbWpa8m7b7FbwvxVa1\/ez8GbDYuM+y8\/heUly\/Y2ozOcxGHnTlq1IuLWa\/eLWTXemZ8PpGccpdZd\/b89\/M6TPLrYCSvoZ\/bb74HQKRZYPSs4ZS6y8pLw48yhw2LjPsvPg8n5G1GRE4RmrSVzHCdWhPSg3F+9a1Px6nW4XFQqK8X43ya8TYONjOzunZrY95bYPTEllU6y4rtfuedVwLWdPP7bfye5he2Iy+WstF9+zxWtdNxehYx0K8ZrWg7r\/Nq3GUwtNOzPZjJSSad0IYAQSAABAAYrDBFzAAAWFoDEByBiAYIAYCAAAI1asYR1pyUYre3ZAgmBUV9NJ5UYOX45dWHL3peSK+vOdX72bkvhXVh8q287m+h2ZXq520V3v01lcqsYlviNL0ou0L1JLdCzXOexGhWxteptl7NfDTb1udTb5JGGELKy3BOairt2Pao9l0KWcvm36uGrjczyrSeSy9+9gqdNR2Lxe1vxe1l\/ohJ0bNXWtJNPPg8\/M5atpBe6r972GKjpStCWtGbVt3uvxRbPHUaeUfm3avJcDqGFqTzeW86DSXR6MovUSa2+zl2b8acttN+BxuO0LODagpNrN05L7SK7rfeLvj5ZHbaM6Q06lo1OpLj7r8HuLPFYOnVjq1I33p7Gnxi1sKnQpV050HZ7Vs8Vs3rmc1E09Gstz28dTW\/M8jt6cN3gzcw+PnHKXWXlPz38ztcVopU25VaMa8HtlqpVo+LWcvG5jpdH8BWjrU4tL8NSeXim2edWqyou1SLXNPcyieCVVbJLv96ihw+JjPsvPhsa5GxGZZVOh1HbGpUj8r\/RMjHo3Vjsrxl+am4v5k3fyIjjKb228H6HlVuyqsc4K\/C5a6Chagn8Un6FiQpU1GKhHZG1vBKxkPKqz05uXez6DD0vhUow7kkAABWXASAAQAAABrgMR0WgAACBjEAAAA0QQUmI0tUllSSgrta0rSk7b4xWS5+RoyhrS1ptzl8U3drw3R5CpNKCu7WWd+O80cZpqlDJdZ92zzPraFDD4eEZWV2k763q2bbbkZJOc20tRZGGti6cO1Lks2ctjdP1J5J6q4L9ys\/nHxO54mX6Fx9F670I0o\/qfA62tphvKCsuL2mpLEXd27+JQRxveZoYw8+rGpU+t36cNXI105Qh9KsXCqE9YqY4pGaOI7zO6TRdposdYstGabq0OqnrQ+GW78r3FBGsZFWISlB3i7PvRL0ZKzzR6Po3S1Kuuo7S3weUuXFeAYvRcZS9pTbp1Pijsl+eO888hWs7p2a2NZNeD3HRaK6UyjaNda6+JdpePxHoQxkakdDERuu+3VenBZsxyw0oPSpPw99GXUcdKm1DEx1G8lNZ05c\/dfczfTCjWpV4Xi41IS2rJ8pR3GlLAVKOeHetH\/AKMn\/wCEns8GY8V2S7aeHeku70e3rvOY1k8pfK+X46bjeA1cLjI1LxzjOPahLKS5b13m2eK007PJloiSIkkcgAAAQAAABrggA7LQAYiCBjIjAABmrj8fSoR16stVPJKzcpPhCKzk+5Exi5NRirt6ks2\/BESairsotN9GZ1Lyw9TNtv2c3aOebUZJZZ8VzOIq6NxLrSoOFpw7SvFqN9l2nZHa4zSVevdK9Cnwi\/tp\/mmsqa7o3fethgoUYwjqwiopZ2XF7X3vvPpcFhp01etZ\/bu3tdFf\/ctTy1Kjlksvfv7\/AGNTR\/Qxzoa2tCUpNpqSlbL4ZxalHa8+7YVekOh9WGyE13xarQ\/9ZLyZ6RoVxdCKTTfWuk02nrPajbcT3E8kpxTy2q3BqzXgzE1m2m14+TuuR4dPRdZO0dWbXuxdp86ckpehqSqOMtWScWtqaaa8U8z3LGaPpVVq1YRmvxJMp8b0TozVoylFbou1SHyzTsvBorlQoS1Xjwkuei1xdiVOpHufJ+afBXPKY1zNDEHWaQ6CzWcYp99KWo+dOpdeUkc9jNBVaTzy7qidN\/M7wfzFEsBJ\/Q1Pdr4OzfgmWrEpfVdb9XFXXExwxJnhiTQq4apTV5waXG3V+ZZeoQkYKlHQejJNPueTNMKt1dZotoYgzQqlZTZtUjLOCRojNltgsbOlLXpycXxW\/ua2M6\/RPSmE7RrrUl8a7D8fhOEposcFgatX7uEpd6yj8zyK415UW5Qdu++p717ZZKlGovmR6NVs7SVs1tW9bsxFHoPRtej2qiUd9NLWXnkovwuXh5uLq\/FrSqLbbkkvK5QoKC0U7jEAGYkkBECCCQBcQBr3GQuB2WkwIXHcNgmIimSAKzTWkJ0tSnSUdarrPWldqEY6t5KK7TvKKtdbb9xRQpdZ1JSc5y2zm7ytwW6MfwxsjZ6RYqMMTec0o06NNZ\/FOpVcrcbqMPI5PSPSVvq0Fqr4na\/Jbj6ns7DKNCLSScldvvvmvva1sllldq+Z59aotJt9+Xvz4F9jcfToq9SVuC2yfI5rSPSCpU6tPqR7n1n4vdyKapVcm3Jtt7W82Y3I9OMVHVxfvLr9zLKcpfY2aOLqU3rU5yi+6TXmtjL3A9OcbSylJVEt09vzHLuRFyL1Vmla\/HNcHdcirQXvLpY9N0f\/ABGoysq9KUHxi9ZeW\/08DpNH6fwdf7qtBvg2k+aZ4W5i19\/DzO9KL1x4O3XSXBJfYlOS2n0Olldf\/CM6aas0mu88NwHSLF0Puq80uDesvU6bR38Sq8cq9ONRcY2jLy2EOnGWp8fxdeLaJVRrWuGfodxiOjeGldwj7NvfSbhfxSyfNFDjuhL203CXdKPs5fPTy84m7o7p9gatlKUqTe6ay8Lr9LrvOjwuLp1VenOMk\/haZ01WjC2uPhKPPSXmSnTcrrXwfkzzPFdH6lLOVOpFfl9pH5oZ+cUbeh9C0qzzxNOPGMXefh1rKPr4HozRp43RGHrfeUovvtZrwazRgrYWjVWpwffB+UtJeEdE0wr1YapX3rzVuLuzSwegcNSzVNTfGp1\/R5ehZlT\/AMAnT\/5XEVKfCMn7SH92fqTwzxsZqNSFKUd9SEnFpcXC30vyPCxXYs4pzjVUkv3Xg+blD\/Nbi6OKu\/mi\/DP0fItBkQueEa7ErjIgDkkAguAFxkbgLA1bjuQuPWOy+xkuFzHcesBYmmBDWC5DRFiq010aw2Llr1VNTslrwm4uy2ZO8XzRzeM\/h7L+hiL91WGfzQ\/Y7q47muljcRSyjN27nmud7eBTLDU5a0eSY3orj6V70HOK9+lKNRfKmprnFFLVvF6s04vhJOL8nme63MWKw9OrHVq04VIvapxjNeUkb6Xbc1lOCe6666V+Rnlgl+l8TwtsjJnrGO6EYCourTdJ7nRk4pd6g7x9Dnsb\/Deos6GJjJbo1IOMvni2n8qPSo9sYaf1Nx3rzV+diiWFqR2XODlIxuZeaR6J4+jm8POaXvUftv7Y9fnq2OfrXi7STT4STjL5XmerQq06q\/8AnJS3O\/QpcLZMye0BVDVcxe0L7HLibyqGfDYiUHeEnF\/hbX02lWqhmhUI0bO6yZGjfI7LRvTjHUrL2iqJbqiv5PcdRo7+JEHliKLj+KGa8tp5bCZt4ZSnLVhGU5fDCMpyfhGKbZzKo9crPf5vJ8XbcT8O2p2992a5Htuj+k2Cr9itFN7pXi\/XLk8yzqyTimndX3ZnlGjOhuMqWdSMaK\/1HeXyR2eDaO10H0fjhrS9tVqSXGTjT2W+7Tfq2eP2hj8JKjOmpfM1s+ZX35JL+5v7M0UaVVSTtlwy59EXtxXI3C58ienYmFyNx3IIsO4EbhcAmBG4gDQ1x+0NF11xE8Qi7QLsjf8AaBrlf\/NLiH80uI0GMix9oP2hX\/za4h\/NriNBjIsdcamV380gWLQ0GMiy1x65Vzx8Y9ppeLS+pq1ekWHjtqJ90VKX0R1GlOf0pvcrhRvqzL\/XDWOUrdMKS7FOpL5Yr1d\/QrcR0zxL+6o0od83Oo\/TUS9S6OAxEv09F535HXwpdx3usYcVgqddatWlGsuE6aqfVHnGI6R6Qn\/V1fyKMf0v6lTi3XrfeznPunKUl8rdjTHsmq3dyS5+nUn4DeTR2uO6C6LqtqH2Utj9lW2N\/wCnJuK2bLI57SP8KsR2sLWU18NWMoO354KUW+USieAm8rLL8KIrRctyS8EkenTpYun9OIf9y0urZVLAxex+C\/JjxnQzSNHt4abS30\/tF5R63oWWjOgOOqWc4wox3upK0uUI3b52MdGliY9mtVj4VZr0TLLD6Qx8Nleo\/Gcn9WaalfGONoygn32l0bkupxDs3PO50WjP4fYOnZ15Trtbm3Thf8sHdrucmdVg8LSox1KNONOPCEVH6bTgaOn8cttR+Zu0dP4q9r3b3asX+h42IwmKrZ1Kilvbt4K1lwNkMB+3o\/Q7jWDWOfweI0jPs0U1xlBRXndFxThiI5V1RV1e0FPWzeV5N23PK3DMxVcFVpR05au9f+FU6ai7aUW+5PPgbOsGsY7hcyldjJcLkLiuRYWMlw1zHcdxYWMmsMx3ELCxz0oMxypMtfYkHQNOmSVEqLMUqUu8u3hyEsOdKoQUbiwzLeeF7jVqYV7kdqaYNLWZhcHUq6jnOKhDWerJq7lKyvx2GevGUfdfka2DxMFWetJR1qaSu0s4yfHxNuCjeqtuvocyclGTjrsOWhlunLmov9CEtDy3VFzpr9Gi3i09jT8Gn9Bs9x01tMix+IX63yfVFK9E1OMHykv3IS0dVXuwfhJr6ovAsc\/DRau0sRtlfwXoc+8JVXueUov62IOjUW2nU5K\/0Z0lgsPhosXatZa0nx9TmXFrbCa8YS\/YKa1nqxTbe7Vd\/odMdN0Vw0XSlJrP2lvKMf3CpX2li7XktcFx\/DOGwvR\/E1NlOST3yWqvUusL0HqSzqVEu6N2\/wBEd8oIko7+H+bTuNBbWZ6na9Z\/TaPhf\/tfoczg+huGhm7yfe19EXeG0bRprqU4R\/LFLzttMOL07haT1XUUpP3af2k\/KF7c7GnPTlaWVKhqJb8RLVfyQvLlc5qVcPQznJLqVuli66Tne38nZeF7ci9jAp9NZVV+SP1tsK+rWrz+9xE1f3KNqUPPOb5sx0aNOF9WCTe2VryfjOV5Pmzxu0O0KVen8OCetO+rVzLqGFVJ6Tld9yWXF26GW47kdYdzxbGgdwuK4yASuCYgBA9YBAAYxAM7IIATsKwBEiZLCsARMdSnGXajF+KT+pmaFYA0KmisPLN0KXyJfQgtEUF2YSj+SdSP0kix1RapZGrKP0ya3NroQ5yetla9EQ92tXj\/ALkJL+6DfqQeiprs4hv89OD9VYttUWqXRxleOqb4363OXFPXFcEVL0fXXZqUGvxQqJ+ak\/oQeFxKfZotd1SSfk4F1qhqlq7SxC\/VfwX4OfhweuK97ijcMQttBvvjVoy9NdP0LrQml5UKcoSw2JcpTvFezsuyk7zvZbCVgsWx7WrrZHg\/UfApft5v1NirpXGT7MaVFd\/2s\/O+p6M06uE1861SpWfCpK0OVONl5tmWw7GarjsRVylLLuWS9+JojP4f+mlDdr\/5Zy4sKajBasIqK4RSX0C4WAyHDbbuMBDAGgQAAMZEZFhcBkbjuLAdwABYXEAhkkCAYACAYACAYACsFhgARsOwwAFYLDHYAjYLEgAI2HYYACsFgGAILDAEhYLAMCxGwWJDIIIWCxMBcELATsAuTcxgAAgBgBIEiSAABAAEAAAAAGAEkgAAAAAAIAAAgEhABCAAAEnQIEAA5GAAGBiACCRgAAg\/\/9k=",
         "deskripsi": "asas"
+=======
+        "title": "wqdqw",
+        "author": "fqwwq",
+        "genre": "qfwqqwf",
+        "tahun": "aspfkwpqkfp",
+        "gambar": "https:\/\/images.tokopedia.net\/img\/cache\/250-square\/VqbcmM\/2022\/8\/25\/6661db8f-c7a0-457a-854f-e1a5ab846e97.png",
+        "deskripsi": "sadwqdqwfq"
+    },
+    {
+        "id": 2,
+        "title": "wqd[pkqwkd",
+        "author": "sadk;sakf",
+        "genre": ";lsakf;kas;f",
+        "tahun": ";laskf;aks;fk",
+        "gambar": "https:\/\/images.tokopedia.net\/img\/cache\/250-square\/product-1\/2020\/5\/31\/24721293\/24721293_296ba075-a23f-4204-a498-05cd56d2a51c_750_750",
+        "deskripsi": "s;ladk;skal;gk;ask;sak"
+    },
+    {
+        "id": 1,
+        "title": "wqdqw",
+        "author": "fqwwq",
+        "genre": "qfwqqwf",
+        "tahun": "aspfkwpqkfp",
+        "gambar": "https:\/\/images.tokopedia.net\/img\/cache\/250-square\/VqbcmM\/2022\/8\/25\/6661db8f-c7a0-457a-854f-e1a5ab846e97.png",
+        "deskripsi": "sadwqdqwfq"
+    },
+    {
+        "id": 2,
+        "title": "wqd[pkqwkd",
+        "author": "sadk;sakf",
+        "genre": ";lsakf;kas;f",
+        "tahun": ";laskf;aks;fk",
+        "gambar": "https:\/\/images.tokopedia.net\/img\/cache\/250-square\/product-1\/2020\/5\/31\/24721293\/24721293_296ba075-a23f-4204-a498-05cd56d2a51c_750_750",
+        "deskripsi": "s;ladk;skal;gk;ask;sak"
+    },
+    {
+        "id": 1,
+        "title": "wqdqw",
+        "author": "fqwwq",
+        "genre": "qfwqqwf",
+        "tahun": "aspfkwpqkfp",
+        "gambar": "https:\/\/images.tokopedia.net\/img\/cache\/250-square\/VqbcmM\/2022\/8\/25\/6661db8f-c7a0-457a-854f-e1a5ab846e97.png",
+        "deskripsi": "sadwqdqwfq"
+    },
+    {
+        "id": 2,
+        "title": "wqd[pkqwkd",
+        "author": "sadk;sakf",
+        "genre": ";lsakf;kas;f",
+        "tahun": ";laskf;aks;fk",
+        "gambar": "https:\/\/images.tokopedia.net\/img\/cache\/250-square\/product-1\/2020\/5\/31\/24721293\/24721293_296ba075-a23f-4204-a498-05cd56d2a51c_750_750",
+        "deskripsi": "s;ladk;skal;gk;ask;sak"
+    },
+    {
+        "id": 1,
+        "title": "wqdqw",
+        "author": "fqwwq",
+        "genre": "qfwqqwf",
+        "tahun": "aspfkwpqkfp",
+        "gambar": "https:\/\/images.tokopedia.net\/img\/cache\/250-square\/VqbcmM\/2022\/8\/25\/6661db8f-c7a0-457a-854f-e1a5ab846e97.png",
+        "deskripsi": "sadwqdqwfq"
+    },
+    {
+        "id": 2,
+        "title": "wqd[pkqwkd",
+        "author": "sadk;sakf",
+        "genre": ";lsakf;kas;f",
+        "tahun": ";laskf;aks;fk",
+        "gambar": "https:\/\/images.tokopedia.net\/img\/cache\/250-square\/product-1\/2020\/5\/31\/24721293\/24721293_296ba075-a23f-4204-a498-05cd56d2a51c_750_750",
+        "deskripsi": "s;ladk;skal;gk;ask;sak"
+    },
+    {
+        "id": 3,
+        "title": null,
+        "author": null,
+        "genre": null,
+        "tahun": null,
+        "gambar": null,
+        "deskripsi": null
+>>>>>>> d66de569428f210bd92db5a875ecf37cebb9979f
     }
 ]
