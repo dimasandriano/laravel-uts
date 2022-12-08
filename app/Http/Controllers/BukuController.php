@@ -4,6 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Collection;
+use Illuminate\Pagination\Paginator;
+use Illuminate\Pagination\LengthAwarePaginator;
 
 class BukuController extends Controller
 {
@@ -12,11 +15,20 @@ class BukuController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+    public function paginate($items, $perPage = 3, $page = null, $options = [])
+    {
+        $page = $page ?: (Paginator::resolveCurrentPage() ?: 1);
+        $items = $items instanceof Collection ? $items : Collection::make($items);
+        return new LengthAwarePaginator($items->forPage($page, $perPage), $items->count(), $perPage, $page, $options);
+    }
+
     public function index()
     {
         //
         $file = file_get_contents(public_path() . "/buku.json");
-        $datas = json_decode($file, true);
+        $data = json_decode($file, true);
+        $datas = $this->paginate($data);
+        
         return view('pages.listdata', compact('datas'));
     }
 

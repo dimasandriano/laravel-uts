@@ -20,7 +20,6 @@
     <tbody>
         @foreach ($datas as $data)
             <tr>
-          
                 <td>{{ $data['title'] }}</td>
                 <td>{{ $data['author'] }}</td>
                 <td>{{ $data['genre'] }}</td>
@@ -36,6 +35,7 @@
                 </svg></a></td>
             </tr>
         @endforeach
-    </tbody>
-  </table>
+      </tbody>
+    </table>
+    {{ $datas->links() }}
 @endsection

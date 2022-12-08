@@ -18,11 +18,11 @@
       <div class="row">
         <div class="col-2 min-vh-100 text-white shadow-sm p-0 pt-1" id="kiri">
           <h3 class="text-center shadow-sm py-2">Side Menu</h3>
-          <nav class="nav flex-column nav-pills text-center" id="listmenu">
-            <a class="nav-link text-white my-2 fs-5" href="/">Dashboard</a>
-            <a class="nav-link text-white my-2 fs-5" href="/buku/create">Tambah Data</a>
-            <a class="nav-link text-white my-2 fs-5" href="/buku">List Data</a>
-            <a class="nav-link text-white my-2 fs-5" href="/about">About</a>
+          <nav class="nav flex-column nav-pills" id="listmenu">
+            <a class="nav-link text-white fs-5" href="/dashboard"><span class="ms-5">Dashboard</span></a>
+            <a class="nav-link text-white fs-5" href="/buku/create"><span class="ms-5">Tambah Data</span></a>
+            <a class="nav-link text-white fs-5" href="/buku"><span class="ms-5">List Data</span></a>
+            <a class="nav-link text-white fs-5" href="/about"><span class="ms-5">About</span></a>
           </nav>
         </div>
         <div class="col-10" id="kanan">
