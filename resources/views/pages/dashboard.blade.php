@@ -3,7 +3,7 @@
 @section('content')
 <div class="d-flex flex-wrap gap-3 mx-3">
   @foreach ($datas as $data)
-  <div class="card p-2" style="width: 18rem;">
+  <div class="card p-2 w-20">
     <img class=" h-75 w-100"  src="{{ $data['gambar'] }}" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">{{ $data['title'] }}</h5>
