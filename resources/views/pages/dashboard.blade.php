@@ -11,7 +11,7 @@
       <p class="card-text">Penulis :<b> {{ $data['author'] }}</b></p>
       <p class="card-text">Genre :<b> {{ $data['genre'] }}</b></p>
       <div class="d-flex justify-content-end">
-        <a href="{{route('buku.show', $data['id'])}}" class="btn btn-primary">Detail</a> 
+        <a href="{{route('show', $data['id'])}}" class="btn btn-primary">Detail</a> 
       </div>
     </div>
   </div>

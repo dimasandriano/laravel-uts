@@ -15,7 +15,7 @@ class BukuController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function paginate($items, $perPage = 3, $page = null, $options = [])
+    public function paginate($items, $perPage = 2, $page = null, $options = [])
     {
         $page = $page ?: (Paginator::resolveCurrentPage() ?: 1);
         $items = $items instanceof Collection ? $items : Collection::make($items);
@@ -70,7 +70,7 @@ class BukuController extends Controller
         $jsonfile = json_encode($datas, JSON_PRETTY_PRINT);
         $file = file_put_contents(public_path() . "/buku.json",$jsonfile);
 
-        return redirect('/buku');
+        return redirect('/');
     }
 
     /**
@@ -132,7 +132,7 @@ class BukuController extends Controller
         $jsonfile = json_encode($datas, JSON_PRETTY_PRINT);
         $file = file_put_contents(public_path() . "/buku.json",$jsonfile);
 
-        return redirect('/buku');
+        return redirect('/');
     }
 
     /**
@@ -152,7 +152,7 @@ class BukuController extends Controller
         $jsonfile = json_encode($datas, JSON_PRETTY_PRINT);
         $file = file_put_contents(public_path() . "/buku.json",$jsonfile);
 
-        return redirect('/buku');
+        return redirect('/');
     }
 
     //Dashboard

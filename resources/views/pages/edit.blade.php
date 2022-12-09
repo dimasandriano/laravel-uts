@@ -2,9 +2,8 @@
 
 @section('content')
     <div class="w-50 mx-auto">
-        <form method="POST" action="{{ route('buku.update', $jsonfile['id']) }}">
+        <form method="POST" action="{{ route('update', $jsonfile['id']) }}">
             @csrf
-            @method('PUT')
             <div class="mb-3 d-none">
                 <label for="id" class="col-form-label">Id</label>
                 <input type="text" value="{{ $jsonfile['id'] }}" class="form-control" id="id" name="id">

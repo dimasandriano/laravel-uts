@@ -15,13 +15,13 @@ use App\Http\Controllers\BukuController;
 */
 
 // Route Manual
-Route::get('/', [BukuController::class, 'index'])->name('buku.index');
-// Route::get('/buku/create', [BukuController::class, 'create'])->name('buku.create');
-// Route::post('/buku/store', [BukuController::class, 'store'])->name('buku.store');
-// Route::get('/buku/show/{id}', [BukuController::class, 'show'])->name('buku.show');
-// Route::get('/buku/edit/{id}', [BukuController::class, 'edit'])->name('buku.edit');
-// Route::post('/buku/update/{id}', [BukuController::class, 'update'])->name('buku.update');
-Route::get('/buku/delete/{id}', [BukuController::class, 'destroy'])->name('buku.destroy');
+Route::get('/', [BukuController::class, 'index'])->name('index');
+Route::get('/create', [BukuController::class, 'create'])->name('create');
+Route::post('/store', [BukuController::class, 'store'])->name('store');
+Route::get('/show/{id}', [BukuController::class, 'show'])->name('show');
+Route::get('/edit/{id}', [BukuController::class, 'edit'])->name('edit');
+Route::post('/update/{id}', [BukuController::class, 'update'])->name('update');
+Route::get('/delete/{id}', [BukuController::class, 'destroy'])->name('destroy');
 
 //Dashboard
 Route::get('/dashboard', [BukuController::class, 'dashboard']);
@@ -31,5 +31,5 @@ Route::get('/about', function(){
     return view('pages.about');
 });
 
-// Route Resource
-Route::resource('/buku', BukuController::class)->except(['destroy','index']);
+// // Route Resource
+// Route::resource('/buku', BukuController::class)->except(['destroy','index']);

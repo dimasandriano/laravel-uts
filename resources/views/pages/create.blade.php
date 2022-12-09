@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="w-50 mx-auto">
-        <form method="POST" action="{{route('buku.store')}}">
+        <form method="POST" action="{{route('store')}}">
             @csrf
             <div class="mb-3 d-none">
                 <label for="id" class="col-form-label">Id</label>
