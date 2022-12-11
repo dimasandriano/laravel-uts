@@ -18,6 +18,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   </head>
   <body>
+    {{-- Sidebar --}}
       <div class="row min-vh-100">
         <div class="col-2 text-white shadow-sm p-0 pt-1" id="kiri">
           <h3 class="text-center shadow-sm py-2">Side Menu</h3>
@@ -41,6 +42,7 @@
             </svg>About</span></a>     <hr id="garis">
           </nav>
         </div>
+        {{-- navbar --}}
         <div class="col-10" id="kanan">
           <nav class="navbar navbar-expand-lg bg-blue mb-3">
               <div class="container-fluid">
